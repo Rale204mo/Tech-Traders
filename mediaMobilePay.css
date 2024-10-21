@@ -1,0 +1,57 @@
+@media screen and (max-width: 1024px){
+    .entries{
+        margin-left: -6.65rem;
+        margin-top: 2rem;
+    }
+
+    .noticePay{
+        margin-left: 0rem;
+        display: block;
+    }
+    .noticePay h1{
+        margin-left: 3rem;
+        margin-top: -6rem;
+    }
+
+    .noticePay img{
+        margin-top: -4rem;
+    }
+
+
+}
+
+
+@media screen and (max-width: 375px){
+    .noticePay img{
+        height: 350px;
+        width: 350px;
+    }
+
+    .entries input{
+        width: 340px;
+        margin-left: 2rem;
+    }
+
+    .paym {
+        width: 340px;
+        margin-left: 2rem;
+    }
+}
+
+@media screen and (max-width: 414px){
+    .noticePay img{
+        height: 350px;
+        width: 350px;
+    }
+
+    .entries input{
+        width: 340px;
+        margin-left: 3rem;
+    }
+
+    .paym {
+        width: 340px;
+        margin-left: 3rem;
+    }
+}
+

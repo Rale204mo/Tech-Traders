@@ -1,0 +1,201 @@
+
+@media screen and (max-width: 375px){
+
+    .texts h1,p{
+        margin-top: 8rem;
+        margin-left: -10rem;
+    }
+    .texts h1{
+        font-size: 2rem;
+    }
+    .texts p{
+        font-size: 1.1rem;
+        width: 250px;
+        margin-top: 1rem;
+    }
+
+    .methodsText h1{
+        margin-top: 3rem;
+        margin-left: -30rem;
+        font-size: 3rem;
+        width: 375px;
+    }
+
+    .pay{
+        display: block;
+        margin-left: 4rem;
+        margin-top: 2rem;
+    }
+
+    .pay .bankWire{
+        margin-left: 1rem;
+        margin-top: 2rem;
+
+    }
+
+    .pay .bankWire h1{
+        margin-left: -1rem;
+    }
+    .pay .number h1{
+        margin-left: -1rem;
+    }
+
+    .pay .bankWire a{
+        padding: 10px 70px;
+        margin-left: -1rem;
+    }
+    .pay .number a{
+        padding: 10px 70px;
+        margin-left: -1rem;
+    }
+}
+@media screen and (max-width: 414px){
+
+    .texts h1,p{
+        margin-top: 8rem;
+        margin-left: -10rem;
+    }
+    .texts h1{
+        font-size: 2rem;
+    }
+    .texts p{
+        font-size: 1.1rem;
+        width: 250px;
+        margin-top: 1rem;
+    }
+
+    .methodsText h1{
+        margin-top: 3rem;
+        margin-left: -30rem;
+        font-size: 3rem;
+        width: 375px;
+    }
+
+    .pay{
+        display: block;
+        margin-left: 4rem;
+        margin-top: 2rem;
+    }
+
+    .pay .bankWire{
+        margin-left: 1rem;
+        margin-top: 2rem;
+
+    }
+
+    .pay .bankWire h1{
+        margin-left: -1rem;
+    }
+    .pay .number h1{
+        margin-left: -1rem;
+    }
+
+    .pay .bankWire a{
+        padding: 10px 70px;
+        margin-left: -1rem;
+    }
+    .pay .number a{
+        padding: 10px 70px;
+        margin-left: -1rem;
+    }
+}
+@media screen and (max-width: 430px){
+
+    .texts h1,p{
+        margin-top: 8rem;
+        margin-left: -10rem;
+    }
+    .texts h1{
+        font-size: 2rem;
+    }
+    .texts p{
+        font-size: 1.1rem;
+        width: 250px;
+        margin-top: 1rem;
+    }
+
+    .methodsText h1{
+        margin-top: 3rem;
+        margin-left: -30rem;
+        font-size: 3rem;
+        width: 375px;
+    }
+
+    .pay{
+        display: block;
+        margin-left: 4rem;
+        margin-top: 2rem;
+    }
+
+    .pay .bankWire{
+        margin-left: 1rem;
+        margin-top: 2rem;
+
+    }
+
+    .pay .bankWire h1{
+        margin-left: -1rem;
+    }
+    .pay .number h1{
+        margin-left: -1rem;
+    }
+
+    .pay .bankWire a{
+        padding: 10px 70px;
+        margin-left: -1rem;
+    }
+    .pay .number a{
+        padding: 10px 70px;
+        margin-left: -1rem;
+    }
+}
+@media screen and (max-width: 1024px){
+
+    .texts h1,p{
+        margin-top: 8rem;
+        margin-left: -10rem;
+    }
+    .texts h1{
+        font-size: 2rem;
+    }
+    .texts p{
+        font-size: 1.1rem;
+        width: 250px;
+        margin-top: 1rem;
+    }
+
+    .methodsText h1{
+        margin-top: 3rem;
+        margin-left: -30rem;
+        font-size: 3rem;
+        width: 375px;
+    }
+
+    .pay{
+        display: block;
+        margin-left: 4rem;
+        margin-top: 2rem;
+    }
+
+    .pay .bankWire{
+        margin-left: 1rem;
+        margin-top: 2rem;
+
+    }
+
+    .pay .bankWire h1{
+        margin-left: -1.5rem;
+    }
+    .pay .number h1{
+        margin-left: -1.5rem;
+    }
+
+    .pay .bankWire a{
+        padding: 10px 100px;
+        margin-left: -1rem;
+    }
+    .pay .number a{
+        padding: 10px 100px;
+        margin-left: -1rem;
+    }
+}

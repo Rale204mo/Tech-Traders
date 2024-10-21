@@ -1,0 +1,891 @@
+@media screen and (max-width: 375px){
+
+    /*Header*/
+    .logo{
+        font-size : 1.5rem;
+        margin-left: 2rem;
+    }
+
+    .navbar a{
+        display: none;
+    }
+
+    .header a{
+        font-size: 1.5rem;
+        width: 200px;
+
+    }
+
+    .menu-icon{
+        margin-left: -7rem;
+    }
+
+    .navbar img{
+        width: 40px;
+        height: 40px;
+    }
+
+
+    .menu-icon{
+        display: flex;
+    }
+
+    /*Home*/
+    .home-content{
+        margin-left: -1rem;
+        margin-top: 10rem;
+    }
+    .home-content h1{
+        font-size: 2.2rem;
+    }
+    .home-content h3{
+        font-size: 2rem;
+    }
+    .home-content p{
+        font-size: 1.5rem;
+        width: 300px;
+    }
+    .text-animation span::before{
+        font-size: 2rem;
+    }
+
+    .home{
+        display: block;
+    }
+
+    .btn{
+        padding: 10px 97px;
+    }
+
+    .btn_media{
+        padding: 10px 130px;
+    }
+
+
+
+    .btn-group{
+        display: block;
+        margin-top: 5rem;
+    }
+
+    .home-img img{
+        display: none;
+    }
+
+
+    
+    /*Testimonials=========================================================================*/
+    .education{
+        margin-top: -15rem;
+    }
+    .education h2{
+        font-size: 2.5rem;
+        margin-left: -11rem;
+    }
+
+    .education p{
+        margin-top: -3rem;
+        margin-left: 0rem;
+    }
+
+    .proof{
+        margin-left: -15rem;
+        display: block;
+    }
+
+    .proof .after{
+        margin-left: 15rem;
+    }
+
+    .second{
+        display: none;
+    }
+
+    /*whatsapp free grou==========================================================*/
+    .Whatsappx{
+        margin-top: -10rem;
+    }
+    .ready h1{
+        font-size: 2.5rem;
+    }
+
+    .ready p{
+        font-size: 1.5rem;
+        margin-left: 0rem;
+    }
+
+    .whatsappIcon{
+        margin-top: 2rem;
+    }
+
+    .whatsappIcon img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .whatsappIcon2 img{
+        width: 320px;
+        height: 450px;
+        margin-left: -2rem;
+        margin-top: 3rem;
+    }
+    
+    /*Working with skrill======================================================*/
+
+    .skrill_Category{
+        display: block;
+        margin-top: -20rem;
+    }
+
+    .icon_side img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .info_side h1,h3,p{
+        margin-left: -4rem;
+    }
+
+    .info_side{
+        margin-top: 3rem;
+    }
+    .info_side h1{
+        font-size: 2.5rem;
+    }
+    .info_side h3{
+        font-size: 2rem;
+    }
+
+    .btn-skrill{
+        margin-left: -5rem;
+    }
+
+    /*Contact Section*/
+    .support p{
+        margin-left: 0rem;
+    }
+
+    .support{
+        margin-top: -10rem;
+    }
+
+
+    /*Mentorship and signals pricing*/
+    .lessons h1{
+        font-size: 2.5rem;
+    }
+    .lessons p{
+        font-size: 1.5rem;
+        margin-left: 0rem;
+    }
+
+    .methods h1{
+        margin-left: -1.65rem;
+        font-size: 2rem;
+    }
+
+    .paymentsMethods{
+        margin-left: 0%;
+    }
+
+    .package{
+        display: block;
+    }
+
+    .basic{
+        max-width: 100%;
+    }
+    .basictwo{
+        margin-left: 0%;
+    }
+
+    .copyright{
+        display: none;
+    }
+
+    .ment{
+        margin-top: -25rem;
+    }
+
+    .Whatsapp h1{
+        margin-left: 1rem;
+    }
+    .Facebook h1{
+        margin-left: 1rem;
+    }
+    .Instagram h1{
+        margin-left: 1rem;
+    }
+
+    .MobilePhone h1{
+        margin-left: 1rem;
+    }
+}
+@media screen and (max-width: 414px){
+
+    /*Header*/
+    .logo{
+        font-size : 1.5rem;
+        margin-left: 2rem;
+    }
+
+    .navbar a{
+        display: none;
+    }
+
+    .header a{
+        font-size: 1.5rem;
+        width: 200px;
+
+    }
+
+    .menu-icon{
+        margin-left: -7rem;
+    }
+
+    .navbar img{
+        width: 40px;
+        height: 40px;
+    }
+
+
+    .menu-icon{
+        display: flex;
+    }
+
+    /*Home*/
+    .home-content{
+        margin-left: -1rem;
+        margin-top: 10rem;
+    }
+    .home-content h1{
+        font-size: 2.2rem;
+    }
+    .home-content h3{
+        font-size: 2rem;
+    }
+    .home-content p{
+        font-size: 1.5rem;
+        width: 300px;
+    }
+    .text-animation span::before{
+        font-size: 2rem;
+    }
+
+    .home{
+        display: block;
+    }
+
+    .btn{
+        padding: 10px 97px;
+    }
+
+    .btn_media{
+        padding: 10px 130px;
+    }
+
+    .btn-group{
+        display: block;
+        margin-top: 5rem;
+    }
+
+    .home-img img{
+        display: none;
+    }
+
+
+    
+    /*Testimonials=========================================================================*/
+    .education{
+        margin-top: -15rem;
+    }
+    .education h2{
+        font-size: 2.5rem;
+        margin-left: -11rem;
+    }
+
+    .education p{
+        margin-top: -3rem;
+        margin-left: 0rem;
+    }
+
+    .proof{
+        margin-left: -15rem;
+        display: block;
+    }
+
+    .proof .after{
+        margin-left: 15rem;
+    }
+
+    .second{
+        display: none;
+    }
+
+    /*whatsapp free grou==========================================================*/
+    .Whatsappx{
+        margin-top: -10rem;
+    }
+    .ready h1{
+        font-size: 2.5rem;
+    }
+
+    .ready p{
+        font-size: 1.5rem;
+        margin-left: 0rem;
+    }
+
+    .whatsappIcon{
+        margin-top: 2rem;
+    }
+
+    .whatsappIcon img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .whatsappIcon2 img{
+        width: 320px;
+        height: 450px;
+        margin-left: -2rem;
+        margin-top: 3rem;
+    }
+    
+    /*Working with skrill======================================================*/
+
+    .skrill_Category{
+        display: block;
+        margin-top: -20rem;
+    }
+
+    .icon_side img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .info_side h1,h3,p{
+        margin-left: -4rem;
+    }
+
+    .info_side{
+        margin-top: 3rem;
+    }
+    .info_side h1{
+        font-size: 2.5rem;
+    }
+    .info_side h3{
+        font-size: 2rem;
+    }
+
+    .btn-skrill{
+        margin-left: -5rem;
+    }
+
+    /*Contact Section*/
+    .support p{
+        margin-left: 0rem;
+    }
+
+    .support{
+        margin-top: -10rem;
+    }
+
+
+    /*Mentorship and signals pricing*/
+    .lessons h1{
+        font-size: 2.5rem;
+    }
+    .lessons p{
+        font-size: 1.5rem;
+        margin-left: 0rem;
+    }
+
+    .methods h1{
+        margin-left: -1.65rem;
+        font-size: 2rem;
+    }
+
+    .paymentsMethods{
+        margin-left: 0%;
+    }
+
+    .package{
+        display: block;
+    }
+
+    .basic{
+        max-width: 100%;
+    }
+    .basictwo{
+        margin-left: 0%;
+    }
+
+    .copyright{
+        display: none;
+    }
+
+    .ment{
+        margin-top: -25rem;
+    }
+
+    .Whatsapp h1{
+        margin-left: 1rem;
+    }
+    .Facebook h1{
+        margin-left: 1rem;
+    }
+    .Instagram h1{
+        margin-left: 1rem;
+    }
+
+    .MobilePhone h1{
+        margin-left: 1rem;
+    }
+}
+@media screen and (max-width: 430px){
+
+    /*Header*/
+    .logo{
+        font-size : 1.5rem;
+        margin-left: 2rem;
+    }
+
+    .navbar a{
+        display: none;
+    }
+
+    .header a{
+        font-size: 1.5rem;
+        width: 200px;
+
+    }
+
+    .menu-icon{
+        margin-left: -7rem;
+    }
+
+    .navbar img{
+        width: 40px;
+        height: 40px;
+    }
+
+
+    .menu-icon{
+        display: flex;
+    }
+
+    /*Home*/
+    .home-content{
+        margin-left: -1rem;
+        margin-top: 10rem;
+    }
+    .home-content h1{
+        font-size: 2.2rem;
+    }
+    .home-content h3{
+        font-size: 2rem;
+    }
+    .home-content p{
+        font-size: 1.5rem;
+        width: 300px;
+    }
+    .text-animation span::before{
+        font-size: 2rem;
+    }
+
+    .home{
+        display: block;
+    }
+
+    .btn{
+        padding: 10px 97px;
+    }
+
+    .btn_media{
+        padding: 10px 130px;
+    }
+
+    .btn-group{
+        display: block;
+        margin-top: 5rem;
+    }
+
+    .home-img img{
+        display: none;
+    }
+
+
+    
+    /*Testimonials=========================================================================*/
+    .education{
+        margin-top: -15rem;
+    }
+    .education h2{
+        font-size: 2.5rem;
+        margin-left: -11rem;
+    }
+
+    .education p{
+        margin-top: -3rem;
+        margin-left: 0rem;
+    }
+
+    .proof{
+        margin-left: -15rem;
+        display: block;
+    }
+
+    .proof .after{
+        margin-left: 15rem;
+    }
+
+    .second{
+        display: none;
+    }
+
+    /*whatsapp free grou==========================================================*/
+    .Whatsappx{
+        margin-top: -10rem;
+    }
+    .ready h1{
+        font-size: 2.5rem;
+    }
+
+    .ready p{
+        font-size: 1.5rem;
+        margin-left: 0rem;
+    }
+
+    .whatsappIcon{
+        margin-top: 2rem;
+    }
+
+    .whatsappIcon img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .whatsappIcon2 img{
+        width: 320px;
+        height: 450px;
+        margin-left: -2rem;
+        margin-top: 3rem;
+    }
+    
+    /*Working with skrill======================================================*/
+
+    .skrill_Category{
+        display: block;
+        margin-top: -20rem;
+    }
+
+    .icon_side img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .info_side h1,h3,p{
+        margin-left: -4rem;
+    }
+
+    .info_side{
+        margin-top: 3rem;
+    }
+    .info_side h1{
+        font-size: 2.5rem;
+    }
+    .info_side h3{
+        font-size: 2rem;
+    }
+
+    .btn-skrill{
+        margin-left: -5rem;
+    }
+
+    /*Contact Section*/
+    .support p{
+        margin-left: 0rem;
+    }
+
+    .support{
+        margin-top: -10rem;
+    }
+
+
+    /*Mentorship and signals pricing*/
+    .lessons h1{
+        font-size: 2.5rem;
+    }
+    .lessons p{
+        font-size: 1.5rem;
+        margin-left: 0rem;
+    }
+
+    .methods h1{
+        margin-left: -1.65rem;
+        font-size: 2rem;
+    }
+
+    .paymentsMethods{
+        margin-left: 0%;
+    }
+
+    .package{
+        display: block;
+    }
+
+    .basic{
+        max-width: 100%;
+    }
+    .basictwo{
+        margin-left: 0%;
+    }
+
+    .copyright{
+        display: none;
+    }
+
+    .ment{
+        margin-top: -25rem;
+    }
+
+    .Whatsapp h1{
+        margin-left: 1rem;
+    }
+    .Facebook h1{
+        margin-left: 1rem;
+    }
+    .Instagram h1{
+        margin-left: 1rem;
+    }
+
+    .MobilePhone h1{
+        margin-left: 1rem;
+    }
+}
+@media screen and (max-width: 1024px){
+
+    /*Header*/
+    .logo{
+        font-size : 1.5rem;
+        margin-left: 2rem;
+    }
+
+    .navbar a{
+        display: none;
+    }
+
+    .header a{
+        font-size: 1.5rem;
+        width: 200px;
+
+    }
+
+    .menu-icon{
+        margin-left: -7rem;
+    }
+
+    .navbar img{
+        width: 40px;
+        height: 40px;
+    }
+
+
+    .menu-icon{
+        display: flex;
+    }
+
+    /*Home*/
+    .home-content{
+        margin-left: -1rem;
+        margin-top: 10rem;
+    }
+    .home-content h1{
+        font-size: 2.2rem;
+    }
+    .home-content h3{
+        font-size: 2rem;
+    }
+    .home-content p{
+        font-size: 1.5rem;
+        width: 300px;
+    }
+    .text-animation span::before{
+        font-size: 2rem;
+    }
+
+    .home{
+        display: block;
+    }
+
+    .btn{
+        padding: 10px 97px;
+    }
+
+    .btn_media{
+        padding: 10px 130px;
+    }
+
+    .btn-group{
+        display: block;
+        margin-top: 5rem;
+    }
+
+    .home-img img{
+        display: none;
+    }
+
+
+    
+    /*Testimonials=========================================================================*/
+    .education{
+        margin-top: -15rem;
+    }
+    .education h2{
+        font-size: 2.5rem;
+        margin-left: -11rem;
+    }
+
+    .education p{
+        margin-top: -3rem;
+        margin-left: 0rem;
+    }
+
+    .proof{
+        margin-left: -15rem;
+        display: block;
+    }
+
+    .proof .after{
+        margin-left: 15rem;
+    }
+
+    .second{
+        display: none;
+    }
+
+    /*whatsapp free grou==========================================================*/
+    .Whatsappx{
+        margin-top: -10rem;
+    }
+    .ready h1{
+        font-size: 2.5rem;
+    }
+
+    .ready p{
+        font-size: 1.5rem;
+        margin-left: 0rem;
+    }
+
+    .whatsappIcon{
+        margin-top: 2rem;
+    }
+
+    .whatsappIcon img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .whatsappIcon2 img{
+        width: 320px;
+        height: 450px;
+        margin-left: -2rem;
+        margin-top: 3rem;
+    }
+    
+    /*Working with skrill======================================================*/
+
+    .skrill_Category{
+        display: block;
+        margin-top: -20rem;
+    }
+
+    .icon_side img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .info_side h1,h3,p{
+        margin-left: -4rem;
+    }
+
+    .info_side{
+        margin-top: 3rem;
+    }
+    .info_side h1{
+        font-size: 2.5rem;
+    }
+    .info_side h3{
+        font-size: 2rem;
+    }
+
+    .btn-skrill{
+        margin-left: -5rem;
+    }
+
+    /*Contact Section*/
+    .support p{
+        margin-left: 0rem;
+    }
+
+    .support{
+        margin-top: -10rem;
+    }
+
+
+    /*Mentorship and signals pricing*/
+    .lessons h1{
+        font-size: 2.5rem;
+    }
+    .lessons p{
+        font-size: 1.5rem;
+        margin-left: 0rem;
+    }
+
+    .methods h1{
+        margin-left: -1.65rem;
+        font-size: 2rem;
+    }
+
+    .paymentsMethods{
+        margin-left: 0%;
+    }
+
+    .package{
+        display: block;
+    }
+
+    .basic{
+        max-width: 100%;
+    }
+    .basictwo{
+        margin-left: 0%;
+    }
+
+    .copyright{
+        display: none;
+    }
+
+    .ment{
+        margin-top: -25rem;
+    }
+
+    .Whatsapp h1{
+        margin-left: 1rem;
+    }
+    .Facebook h1{
+        margin-left: 1rem;
+    }
+    .Instagram h1{
+        margin-left: 1rem;
+    }
+
+    .MobilePhone h1{
+        margin-left: 1rem;
+    }
+}
+
+
+
+
+

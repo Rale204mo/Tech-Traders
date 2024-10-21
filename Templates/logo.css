@@ -1,0 +1,18 @@
+﻿/* Style for the header and logo */
+header {
+    display: flex;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 10px;
+}
+
+.logo {
+    width: 150px; /* Adjust the logo size */
+    height: auto;  /* Keep the aspect ratio */
+    margin-right: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #00aeff;
+}

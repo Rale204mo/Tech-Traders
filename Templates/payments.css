@@ -1,0 +1,55 @@
+
+
+.number h1{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-size: 2rem;
+    margin-left: 5rem;
+    
+}
+
+.bankWire h1{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-size: 2rem;
+    margin-left: 5rem;
+}
+
+.pay{
+    display: flex;
+    margin-left: 30%;
+    margin-top: 2%;
+}
+
+.bankWire{
+    margin-left: 5rem;
+}
+
+.extenal{
+    background: black;
+}
+
+.texts{
+    margin-left: 12rem;
+}
+
+.texts h1{
+    margin-top: 4rem;
+    font-size: 5rem;
+
+}
+
+.texts p{
+    font-size: 1.7rem;
+}
+
+.methodsText{
+    margin-left: 32rem;
+    font-size: 3rem;
+}
+
+.methodsText h1{
+    margin-top: 7rem;
+}

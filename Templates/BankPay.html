@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Templates/BankPay.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../mediaQueries/mediaBankPay.css">
+    <link rel="icon" type="image/x-icon" href="../Pics/favicon/money-bag (1).png" />
+    <title>Bank Pay</title>
+</head>
+<body>
+    <div class="noticeBank">
+        <h1>Use Your Bank Card To <span>Pay.</span></h1>
+        <P> Please dont let anyone know your banking details.Moreover, Please note that we do not keep your personal information as per our policy.
+            Your payment is not reversible.<span>Join The blue team.</span>
+        </P>
+    </div>
+
+    <div class="entries">
+        <form id="paymentForm">
+            <input type="text" placeholder="Registered Name" name="username" id="name" class="entry" required>
+            <input type="password" placeholder="National ID" name="national" id="NationalID" class="entry" required>
+            <input type="text" placeholder="Amount" name="amount" id="Amount" class="entry" required>
+
+            <button type="submit" class="btn paym">Make Payment</button>
+        </form>
+        
+    </div>
+
+    <script src="./backend/bankpay.js">
+
+    </script>
+</body>
+</html>

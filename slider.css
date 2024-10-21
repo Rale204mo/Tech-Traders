@@ -1,0 +1,32 @@
+
+/* Navbar styling (hidden by default on small screens) */
+.navbar2 {
+    display: none;
+    flex-direction: column;
+    background-color: #141414;
+    position: absolute;
+    top: 100px;
+    right: 0;
+    width: 300px;
+    padding: 20px;
+    
+}
+
+.navbar2 a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 0;
+    display: block;
+}
+
+.menu-icon {
+    border: none;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/* For small screens, we'll show the menu when the class 'open' is added */
+.navbar2.open {
+    display: flex;
+}

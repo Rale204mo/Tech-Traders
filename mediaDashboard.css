@@ -1,0 +1,24 @@
+@media screen and (max-width: 1063px) {
+    .cardBox{
+        display: block;
+        max-width: fit-content;
+    }
+
+    .card{
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .cardBox{
+        display: block;
+        max-width: fit-content;
+        margin-top: -2rem;
+        width:250px;
+    }
+
+    .card{
+        margin-top: 1rem;
+        margin-left: -3.5rem;
+    }
+}

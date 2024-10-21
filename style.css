@@ -1,0 +1,575 @@
+﻿/*The star means all, meaning we are styling the whole code */
+*{
+	border-radius: 15px;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	border: none;
+	outline: none;
+	scroll-behavior: smooth;
+	font-family: "Poppins" , sans-serif;
+}
+
+
+/* Styling root now ----------------------------------------------------*/
+:root{
+    --bg-color: #080808;
+    --second-bg-color: #000000;
+    --text-color: white;
+    --main-color: #00aeff;
+}
+
+
+
+/*Styling the HTML now ------------------------------------------------*/
+html{
+    font-size: 60%;
+    overflow-x: hidden;
+}
+
+/* Styling the body ---------------------------------------------------*/
+body{
+    background:  var(--bg-color);
+    color: var(--text-color);
+}
+
+
+/* ----------------------     Header     -----------------------------*/
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 4rem 2% 6rem;
+    background: rgba(0,0,0,0.3);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 5;
+}
+
+
+/* ----------------------     Logo     -----------------------------*/
+.logo{
+    font-size : 2.5rem;
+    color: var(--text-color);
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.logo:hover{
+    transform: scale(1.1);
+}
+
+.logo span{
+    text-shadow:  0 0 25px var(--main-color);
+}
+
+
+/* ----------------------     Navbar     -----------------------------*/
+.navbar a{
+    font-size: 2rem;
+    color: var(--text-color);
+    margin-left: 2rem;
+    font-weight: 500;
+    transition: 0.3s ease;
+    border-bottom: 3px solid transparent; 
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color: var(--main-color);
+    border-bottom: 3px solid var(--main-color);
+}
+
+
+
+/* ----------------------    menu icon     -----------------------------*/
+#menu-icon{
+    font-size: 3.6rem ;
+    color: var(--main-color);
+    display: none;
+}
+
+
+
+/*This is the section where the contents of thepage are going to be*/
+section{
+    min-height: 100vh;
+    padding: 10rem  12% 10rem ;
+}
+
+/*---------------------- home ----------------------------------------*/
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15rem;
+}
+
+.home-content{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    text-align: left;
+    justify-content: center;
+    margin-top: 3rem;
+    
+}
+
+span{
+    color: var(--main-color);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.logo span{
+    color: var(--main-color);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.home-content h3{
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    font-size: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.home-content h1{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 1.5rem ;
+    line-height: 1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+/*----------------------image ------------------------*/
+.home-img{
+    border-radius: 50%;
+}
+
+.home-img img{
+    position: relative;
+    top: 3rem;
+    width: 40vw;
+    border-radius: 0%;
+    box-shadow: 0 0 25px var(--main-color);
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+.home-img img:hover{
+    box-shadow:  0 0 25px var(var(--main-color)),
+                 0 0 50px var(var(--main-color)),
+                 0 0 100px var(var(--main-color));
+    background-color: rgb(26, 25, 25);
+}
+
+/*-----------------------Home------------------------------*/
+.home-content p {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.8;
+    max-width: 1000px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.btn{
+    display: inline-block;
+    padding: 1.5rem 8rem;
+    background: var(--main-color);
+    box-shadow:  0 0 25px var(--main-color);
+    border-radius: 4rem;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    border: 2px solid transparent;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    margin-top: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 50px var(--main-color);
+    
+}
+
+.btn-group{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.btn-group a:nth-of-type(2){
+    background-color: black;
+    color: var(--main-color);
+    border: 2px solid var(--main-color);
+    box-shadow: 0 0 25px transparent;
+}
+
+
+
+.btn-group a:nth-of-type(2):hover{
+    box-shadow: 0 0 25px var(--main-color);
+    background-color: var(--main-color);
+    color: rgb(255, 255, 255);
+}
+
+.text-animation{
+    font-size: 34px;
+    font-weight: 600;
+    min-width: 280px;
+}
+
+.text-animation span{
+    position: relative;
+}
+
+.text-animation span::before{
+    content: "Fundamental Signals";
+    color: var(--main-color);
+    animation: words 20s infinite;
+    font-size: 3rem;
+}
+
+.text-animation span::after{
+    content: "";
+    background-color: var(--bg-color);
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 100%;
+    border-left: 3px solid var(--bg-color);
+    right:-8px;
+    animation: cursor 0.6s infinite,typing 20s steps(14) infinite;
+}
+@keyframes cursor{
+    to{
+        border-left: 2px solid var(--main-color);
+    }
+}
+@keyframes words{
+    0%,
+    20%{
+        content: "Technical Signals";
+    }
+
+    21%,
+    40%{
+        content: "Scalp Trades";
+    }
+
+    41%,
+    60%{
+        content: "Day Trades";
+    }
+
+    61%,
+    80%{
+        content: "Mentorship";
+    }
+    
+    81%,
+    100%{
+         content: "SMC or ICT strategy"
+         }
+
+}
+
+@keyframes typing{
+    10%,
+    15%,
+    30%,
+    35%,
+    50%,
+    55%,
+    70%,
+    75%,
+    90%,
+    95%{
+        width: 0;
+    }
+    5%,
+    20%,
+    25%,
+    40%,
+    45%,
+    60%,
+    65%,
+    80%,
+    85%{
+        width: calc(100% + 8px);
+    }
+}
+
+/* ---------------------------------------Section 2------------------------*/
+.heading{
+    font-size: 4rem;
+    text-align: center;
+    margin: 5rem 0;
+}
+
+
+
+::-webkit-scrollbar{
+    width:6px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--main-color);
+}
+
+::-webkit-scrollbar-track{
+    background-color: var(--bg-color);
+    width: 50%;
+}
+
+.proof{
+    display: flex;
+    margin-top: 1rem;
+}
+
+.after{
+    margin-left: 15%;
+    font-size: 2rem;
+}
+
+.before{
+    font-size: 2rem;
+    margin-left: 15rem;
+}
+
+.education p{
+    font-size: 1.8rem;
+}
+
+.second{
+    margin-top: 10rem;
+    display: block;
+    margin-left: 10rem;
+}
+
+.proofPic{
+    border-radius: 15px;
+}
+
+.seemore{
+    margin-left: 33rem;
+}
+
+.after2{margin-left: 16rem; font-size: 2rem;}
+.before2{margin-left: 16rem; font-size: 2rem;}
+
+.ready h1{
+    font: 800;
+    font-size: 5rem;
+    margin-top: 3rem;
+}
+.ready p{
+    font-size: 2rem;
+}
+
+.whatsappx{
+    height: 200px;
+    width: 200px;
+    margin-top: 1rem;
+}
+.whatsappIcon{
+    display: block;
+    
+}
+
+.QR{
+    margin-top: 2rem;
+    border-radius: 25px;
+}
+
+.two{
+    margin-top: 3rem;
+    
+}
+
+
+/* Payments section*/
+.payments{
+    border-radius: 15px;
+    margin-inline: 2rem;
+    margin-top: 4rem;
+}
+
+.lessons h1{
+    font-size: 5rem;
+    margin-top: 3rem;
+}
+
+.lessons p{
+    font-size: 2rem;
+}
+
+.paymentsMethods{
+    margin-left: 5rem;
+}
+
+.methods h1{
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-left: 60%;
+}
+
+li{
+    font-size: 2rem;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    color: var(--main-color);
+}
+
+a{
+    color: white;
+}
+.basic{
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 15px;
+    width: 400px;
+    height:350px;
+    margin-top:4rem;
+    justify-items: center;
+    border-color: var(--main-color);
+    
+}
+
+.basic h1{
+    font-size: 2.5rem;
+    margin-left: 2rem;
+}
+.package{
+    display: flex;
+    margin-inline: 2rem;
+}
+
+.basictwo{
+    height: 350px;
+    margin-left: 10rem;
+}
+
+.basictwo h1{
+    font-size: 2.5rem;
+}
+
+.copyright{
+    margin-left: 40rem;
+    margin-top: 10rem;
+}
+
+/*Styling skrill section*/
+.skrill_Category{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.info_side{
+    margin-top: -3rem;
+    margin-left: 4rem;
+}
+
+.skrill_title{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.title_information{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.blue_title{
+    font-size: 2.5rem;
+    margin-bottom: .5rem;
+}
+
+.blue_title2{
+    font-size: 2.5rem;
+    margin-top:2rem;
+}
+
+.info_side p{
+    font-size: 1.2rem;
+}
+
+.btn-skrill{
+    align-items: center;
+    justify-content: center;
+    margin-left: 12rem;
+}
+
+.finance{
+    margin-top: 8rem;
+}
+
+
+/*The Contact Page=====================*/
+
+
+.contact_section .support h1{
+    font-size: 3rem;
+}
+
+.contact_section .support p{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.Whatsapp{
+    display: flex;
+}
+.Whatsapp h1{
+    margin-left: 2rem;
+}
+
+.Facebook{
+    display: flex;
+    margin-top: 2rem;
+}
+.Facebook h1{
+    margin-left: 2rem;
+}
+
+.Instagram{
+    display: flex;
+    margin-top: 2rem;
+}
+.Instagram h1{
+    margin-left: 2rem;
+}
+
+.MobilePhone{
+    display: flex;
+    margin-top: 2rem;
+}
+.MobilePhone h1{
+    margin-left: 2rem;
+}
+
+.methods{
+    margin-inline: 2rem;
+}
+
+
+.bac2{
+    margin-left: 10rem;
+}
+
+
+.menu-icon{
+    display: none;
+}

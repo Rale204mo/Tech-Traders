@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Payment Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .btn-submit {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            font-size: 18px;
+            border-radius: 5px;
+        }
+
+        .btn-submit:hover {
+            background-color: #45a049;
+        }
+
+        .error {
+            color: red;
+            font-size: 14px;
+        }
+    </style>
+	<link href="Templates/payment%20method.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Bank Payment Form</h2>
+    <form id="paymentForm" action="process-payment.php" method="POST">
+        <!-- Account Holder's Name -->
+        <div class="form-group">
+            <label for="accountName">Account Holder's Name:</label>
+            <input type="text" id="accountName" name="accountName" required>
+        </div>
+
+        <!-- Bank Account Number -->
+        <div class="form-group">
+            <label for="accountNumber">Bank Account Number:</label>
+            <input type="text" id="accountNumber" name="accountNumber" required>
+        </div>
+
+        <!-- Bank Name -->
+        <div class="form-group">
+            <label for="bankName">Bank Name:</label>
+            <input type="text" id="bankName" name="bankName" required>
+        </div>
+
+        <!-- Payment Amount -->
+        <div class="form-group">
+            <label for="amount">Payment Amount:</label>
+            <input type="number" id="amount" name="amount" step="0.01" required>
+        </div>
+
+        <!-- Submit Button -->
+        <a href="Templates/success.html"><button type="submit" class="btn-submit">Make Payment</button>
+		</a>
+    </form>
+</div>
+
+</body>
+</html>

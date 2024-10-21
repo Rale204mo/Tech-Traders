@@ -1,0 +1,84 @@
+:root{
+    --bg-color: #000000;
+    --text-color: #000000;
+    --main-color: #00aeff;
+}
+
+body{
+    background: var(--bg-color);
+}
+
+
+
+.container{
+    margin-left: 40rem;
+    margin-top: 8rem;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputs{
+    display: block;
+}
+
+ul li{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.welcomeBack h1{
+    font-size: 4rem ;
+    color: var(--main-color);
+    font-weight: 700;
+    margin-left: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.welcomeBack p{
+    font-size: 1.5rem ;
+    color: #ffffff;
+    font-weight: 100;
+    margin-left: -8rem;
+    margin-top: -2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+span{
+    color: var(--main-color);
+}
+
+.inputs{
+    padding: 10px 2px;
+    
+}
+
+.inputs2{
+    height: 25px;
+}
+
+.fields{
+    height: 3rem;
+    width: 23rem;
+    border-radius: 20px;
+    border-width: 0.01px;
+    font-size: 1rem;
+    border-style: solid;
+    text-indent: 1rem;
+}
+
+
+
+/*styling the login button*/
+.buttonlogin a{
+    background: var(--main-color);
+    text-decoration: none;
+    color: white;
+    padding: 15px 120px;
+    margin-left: 3rem;
+    border-radius: 25px;
+}
+
+.buttonlogin{
+    margin-top: 1rem;
+}
+ 

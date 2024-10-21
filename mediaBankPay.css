@@ -1,0 +1,75 @@
+@media screen and (max-width: 375px){
+    .noticeBank{
+        margin-left: 35%;
+        margin-top: 2%;
+    }
+
+    .noticeBank h1{
+        font-size: 3rem;
+        margin-left: -8rem;
+        width: 280px;
+    }
+    .noticeBank p{
+        font-size: 1.5rem;
+        margin-left: -8rem;
+        width: 280px;
+    }
+
+
+    .noticePay img{
+        height: 350px;
+        width: 350px;
+    }
+
+    .entries{
+        margin-top: -1rem;
+    }
+
+    .entries input{
+        width: 280px;
+        margin-left: -13rem;
+    }
+
+    .paym {
+        width: 280px;
+        margin-left: -13rem;
+    }
+}
+@media screen and (max-width: 430px){
+    .noticeBank{
+        margin-left: 35%;
+        margin-top: 2%;
+        width: 250px;
+    }
+
+    .noticeBank h1{
+        font-size: 3rem;
+        margin-left: -8rem;
+        width: 280px;
+    }
+    .noticeBank p{
+        font-size: 1.5rem;
+        margin-left: -8rem;
+        width: 280px;
+    }
+
+
+    .noticePay img{
+        height: 350px;
+        width: 350px;
+    }
+
+    .entries{
+        margin-top: -1rem;
+    }
+
+    .entries input{
+        width: 280px;
+        margin-left: -9rem;
+    }
+
+    .paym {
+        width: 280px;
+        margin-left: -9rem;
+    }
+}
