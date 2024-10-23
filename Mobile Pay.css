@@ -1,0 +1,30 @@
+.noticePay{
+    display: flex;
+    margin-left: 13rem;
+    margin-top: 6%;
+}
+
+.noticePay h1{
+    font-size: 4rem;
+    margin-top: 3rem;
+}
+
+.entries{
+    margin-left: 42%;
+    margin-top: -40rem;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 60px;
+}
+
+.entry{
+    padding: 18px;
+    margin: 10px 10px;
+    width: 500px;
+    border-radius: 15px;
+}
+
+.paym{
+    width: 500px;
+    margin-left: 1.4rem;
+}
