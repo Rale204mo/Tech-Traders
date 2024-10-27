@@ -49,6 +49,13 @@ body{
     align-items: center;
     z-index: 5;
 }
+@media (max-width: 600px) {
+    .btn-group a {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+}
+
 
 
 /* ----------------------     Logo     -----------------------------*/
