@@ -365,7 +365,7 @@
 </section>
 		     <!-- TradingView Widget Section -->
 <section id="chart">
-   <h2>Live Forex Chart</h2>
+<h2>Live Forex Chart</h2>
 <!-- TradingView Widget Code -->
 <div class="tradingview-widget-container">
     <div id="tradingview_chart"></div>
@@ -378,35 +378,24 @@
             "symbol": "OANDA:EURUSD",  // Change symbol as needed
             "interval": "D",
             "timezone": "Etc/UTC",
-            "theme": "dark",  // Set theme to 'dark' or 'light'
-            "style": "1",     // 1 = bars, 3 = candles, 5 = line, etc.
+            "theme": "light",
+            "style": "1",
             "locale": "en",
-            "toolbar_bg": "#222222",  // Background color of the toolbar
-            "allow_symbol_change": true,
-            "studies": [
-                "MACD@tv-basicstudies",
-                "RSI@tv-basicstudies",
-                "BollingerBandsR@tv-basicstudies"  // Add additional studies as needed
-            ],
-            "overrides": {
-                "mainSeriesProperties.candleStyle.upColor": "#26a69a",  // Color for up candles
-                "mainSeriesProperties.candleStyle.downColor": "#ef5350",  // Color for down candles
-                "mainSeriesProperties.candleStyle.borderUpColor": "#26a69a",
-                "mainSeriesProperties.candleStyle.borderDownColor": "#ef5350",
-                "mainSeriesProperties.candleStyle.wickUpColor": "#26a69a",
-                "mainSeriesProperties.candleStyle.wickDownColor": "#ef5350",
-                "paneProperties.background": "#1e1e1e",  // Chart background color
-                "paneProperties.vertGridProperties.color": "#363c4e",  // Vertical grid line color
-                "paneProperties.horzGridProperties.color": "#363c4e"   // Horizontal grid line color
-            },
-            "toolbar_bg": "#f1f3f6",  // Toolbar background color
-            "details": true,
+            "toolbar_bg": "#f1f3f6",
             "enable_publishing": false,
-            "save_image": false
+            "allow_symbol_change": true,
+            "save_image": false,
+            "details": true,
+            "studies": [
+                "MACD@tv-basicstudies",           // Moving Average Convergence Divergence
+                "RSI@tv-basicstudies",            // Relative Strength Index
+                "Moving Average@tv-basicstudies", // Simple Moving Average
+                "Bollinger Bands@tv-basicstudies" // Bollinger Bands
+            ]
         });
     </script>
 </div>
-</section>
+
 
 
 
