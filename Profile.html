@@ -365,7 +365,7 @@
 </section>
 		     <!-- TradingView Widget Section -->
 <section id="chart">
-    <h2>Live Forex Chart</h2>
+   <h2>Live Forex Chart</h2>
 <!-- TradingView Widget Code -->
 <div class="tradingview-widget-container">
     <div id="tradingview_chart"></div>
@@ -378,30 +378,35 @@
             "symbol": "OANDA:EURUSD",  // Change symbol as needed
             "interval": "D",
             "timezone": "Etc/UTC",
-            "theme": "light",
-            "style": "1",
+            "theme": "dark",  // Set theme to 'dark' or 'light'
+            "style": "1",     // 1 = bars, 3 = candles, 5 = line, etc.
             "locale": "en",
-            "toolbar_bg": "#f1f3f6",
-            "enable_publishing": false,
+            "toolbar_bg": "#222222",  // Background color of the toolbar
             "allow_symbol_change": true,
-            "save_image": false,
-            "details": true,
             "studies": [
-                "MACD@tv-basicstudies",    // MACD Indicator
-                "RSI@tv-basicstudies",     // RSI Indicator
-                "BollingerBands@tv-basicstudies",  // Bollinger Bands
-                "MovingAverage@tv-basicstudies"    // Moving Average
+                "MACD@tv-basicstudies",
+                "RSI@tv-basicstudies",
+                "BollingerBandsR@tv-basicstudies"  // Add additional studies as needed
             ],
-            "hide_side_toolbar": false,  // Show the side toolbar for drawing tools
-            "withdateranges": true,      // Enable date range selection
-            "hide_legend": false,        // Show the legend
-            "toolbar_bg": "#f4f7f9",
-            "show_popup_button": true,   // Allow opening in TradingView's full-featured chart
-            "popup_width": "1000",
-            "popup_height": "650"
+            "overrides": {
+                "mainSeriesProperties.candleStyle.upColor": "#26a69a",  // Color for up candles
+                "mainSeriesProperties.candleStyle.downColor": "#ef5350",  // Color for down candles
+                "mainSeriesProperties.candleStyle.borderUpColor": "#26a69a",
+                "mainSeriesProperties.candleStyle.borderDownColor": "#ef5350",
+                "mainSeriesProperties.candleStyle.wickUpColor": "#26a69a",
+                "mainSeriesProperties.candleStyle.wickDownColor": "#ef5350",
+                "paneProperties.background": "#1e1e1e",  // Chart background color
+                "paneProperties.vertGridProperties.color": "#363c4e",  // Vertical grid line color
+                "paneProperties.horzGridProperties.color": "#363c4e"   // Horizontal grid line color
+            },
+            "toolbar_bg": "#f1f3f6",  // Toolbar background color
+            "details": true,
+            "enable_publishing": false,
+            "save_image": false
         });
     </script>
 </div>
+</section>
 
 
 
