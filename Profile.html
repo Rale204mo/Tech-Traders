@@ -1,437 +1,159 @@
-﻿<!--Carry out this project using clear coding and clear labeling -->
-<!--Carry out this project using the css referal to educate yourself even more  -->
-
 <!DOCTYPE html>
 <html lang="en">
-    
-    <!--This is the head of my profile-->
-    <head>
-         <meta charset="UTF-8">
+
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Traders</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="./Pics/favicon/money-bag.png">
+    <link rel="stylesheet" href="slider.css">
+    <link rel="stylesheet" href="mediaQueries/media.css">
+    <link rel="stylesheet" href="logo.css">
+</head>
 
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <img src="Tech_Trader_White.png" alt="Tech Traders Logo" height="80">
+        <a href="#tradingview_chart" class="logo">TradingView <span>Analyse your favorite pair</span></a>
 
-        <!-- Creating the title of my page -->
-        <title> TECH TRADERS. </title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="icon" type="image/x-icon" href="./Pics/favicon/money-bag (1).png" />
-        <link rel="stylesheet" href="./mediaQueries/media.css">
-        <link rel="stylesheet" href="slider.css">
-	<link rel="stylesheet" href="madia.css">   
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#education">Our Work</a>
+            <a href="#whatsapp">Free Group</a>
+            <a href="#finance">Finance</a>
+            <a href="#contact">Contact Us</a>
+            <a href="#mentorship">Mentorship</a>
+        </nav>
 
-    	<link href="logo.css" rel="stylesheet" type="text/css">
+        <img src="./Pics/mobile/menu.png" alt="Menu Icon" class="menu-icon" id="menuBtn" width="40">
+    </header>
 
-    </head>
-
-
-    <!--This is the body of my profile -->
-    <body>
-
-        <!--This is the navigation bar or header of the page section-->
-        <!-- Creating header in the navbar or logo-->
-        <header class="header">
-     <img alt="tt" src="Tech_Trader_White.png" height="80" width="auto">
-                
-                <a href="#tradingview_chart"  class="logo">TradingView.
-            <span>Analyse your favorite pair</span></a>
-        
-            <nav class="navbar navbar2" id="sidemenu" style="right: 0; top: 100px; width: 299px">
-                <a href="#home"><span>Home</span></a>
-                <a href="#education"> Our Work </a>
-                <a href="#Whatsapp"> Free Group </a>
-                <a href="#finance"> Finance</a>
-                <a href="#contact"> Contact Us </a>
-                <a href="#mentorship"> Mentorship </a>
-
-                
-            </nav>
-            <nav class="navbar">
-                <a href="#home"><span>Home</span></a>
-                <a href="#education"> Our Work </a>
-                <a href="#Whatsapp"> Free Group </a>
-                <a href="#finance"> Finance</a>
-                <a href="#contact"> Contact Us </a>
-                <a href="#mentorship"> Mentorship </a>
-                
-            </nav>
-            <i><img src="./Pics/mobile/menu.png" width="40" alt="option gui" id="menuBtn" class="menu-icon"></i>
-        </header>
-
-        <!-- This is the home section for my page -->
-                  <section  class="home" id="home">
-            <!-- This is the major div holding all of the contents -->
-            <div class="home-content">
-                <h1>At<span>  TECH TRADERS. </span></h1>
-                <h3 class="text-animation"> We offer <span></span></h3>
-
-                <P>
-                    Dumela Mosotho ea khabane. You can now get professional and fully structured 
-                    trading signals (Fundamentals and Technical) starting from as low as <span>M500
-                        per month.</span>
-                </P>
-
-                <!--As the name suggest this is he buttons group where all buttons remain-->
-                <div class="btn-group">
-                    <a href="./Templates/payments.html" class="btn btn_media" >Buy</a>
-                    <a href="./Templates/login.html" class="btn btn2" >Signals.....</a>
-                </div>
-            </div>
-            <div class="home-img">
-                <img src="XAUUSD_before.png" alt=pic 1" />
-            </div>
-        </section>
-	    <section>
-		    
-			  <p>
-				  <table>
-<tr>NAMES	SURNAMES	STUDENT NUMBERS</tr>
-<tr><td>Motsamai	Ralejoe	901018729 </td></tr>
-<tr><td>Boithabiso	Rasutha	901018716 </td></tr>
-<tr><td>Poloko	        Chaane 901019286 </td></tr>
-<tr><td>Boitumelo	Mosebo	901018817 </td></tr>
-<tr><td>Tumelo	         Mokena 901019501 </td></tr>
-<tr><td>Lehlohonolo	Lekaka	901019814 </td></tr>
-					  </table>
-			  </p>
-		    
-	    </section>
-
-            <!-- this section is making the button squeeze-->
-        <!-- This section is for education of the web -->
-        <section class="education" id="education">
-            <h2 class="heading"> See for yourself </h2>
-
-            <p>Join the blue team and trade with some of the highly skilled traders.We specialise with <span>Gold , Us30 , Nasdaq and EURUSD.</span>
-                Our signals are 89% - 95% accurate. What are you waiting for ? Grow your account with us!We are looking forward to seeing you 
-                in our VIP club.
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="home-content">
+            <h1>Welcome to <span>Tech Traders</span></h1>
+            <h3 class="text-animation">We Offer <span></span></h3>
+            <p>
+                Dumela Mosotho ea khabane. Professional trading signals (Fundamentals and Technical) available from as low as <span>M500 per month.</span>
             </p>
-
-            <div class="proof">
-                <div class="before">
-                    <h1><span>Before</span></h1>
-                    <img src="Pics/red.jpg" alt="BeforeProfits" class="proofPic">
-                </div>
-
-                <div class="after">
-                    <h1><span>After</span></h1>
-                    <img src="Pics/blues.jpg" alt="InProfits" class="proofPic">
-                </div>
+            <div class="btn-group">
+                <a href="./Templates/payments.html" class="btn">Buy</a>
+                <a href="./Templates/login.html" class="btn btn2">Signals</a>
             </div>
-
-            <div class="proof second">
-                <p>Trade and analyse gold with the Industry experts. Join our Blue team now ,Click the button at Home page 
-                    if your satisfied.
-                </p>
-                <div class="before2">
-                    <h1><span>Before XAUUSD</span></h1>
-                    <img src="Pics/XAUUSD_after.png" alt="BeforeProfits" class="proofPic">
-                </div>
-
-                <div class="after2">
-                    <h2><span>After</span></h2>
-                    <img src="XAUUSD_before.png" alt="InProfits" class="proofPic">
-                </div>
-                
-             <!--Creating the navbar-->
-    <nav class="navigation">
-   
-
-            <div class="proof third">
-            
-              <div class="before3">
-              <p><strong>When it comes to technical analysis tech trader will never depress you believe me we the best 
-			  </strong> </p>
-              	<strong>
-              <br>
-              	</strong>
-              <p><em><strong>Smart Money Trading Simplified </strong></em> </p>
-             
-             <table>
-                              
-                <h1><span>Before Ger30</span></h1>
-                
-                    <img alt="Ger Bofore" src="Pics/GER30_before.png" height="265" width="582">
-                    
-                   
-
-             <div class="after3">
-             
-                   <h1><span>After</span></h1>
-                   
-                    <tr> <img alt="after Ger30" src="Pics/GER30_after.png"  height="265" width="582">
-                    </tr>
-                    </div>
-		     <div class="proof second">
-                    			
-			<strong><p>An introduction to our Smart Money Concept couse </p>
-</strong>
-		     </div>
-
-                 <table>      
-                       
-			
-				 <tr>
-				 <td>
-					 <video controls height="400" width="800">
-						 <source src="How_to_Identify_Correctly_and_Trade_Supply_and_Demand_Zones___Born_To_Trade(720p).mp4" type="video/mp4">
-						 <source src="" type="video/mp4">
-		
-						 <source src="videos/sample.ogv" type="video/ogg">
-						 
-					 </video>
-					 </td>
-
-                      </tr> 
-                       </table>
-			
-		
-        <section id="Whatsapp" class="Whatsappx">
-            <div class="ready">
-                <h1>Are you <span>Ready?</span></h1>
-                <p>Join our trial group now for free and migrate to VIP at anytime convinient to you.</p>
-            </div>
-
-            <div class="whatsappIcon">
-                <img src="Pics/whatsapp.png" width="200" alt="whatsapp" class="whatsapp">
-            </div>
-            <a class="btn two" href="https://chat.whatsapp.com/CQAsn50oJZrLUrpAoJbqCs">Join</a>
-
-            <div class="whatsappIcon2">
-                <img alt="CEO" src="Pics/WhatsApp Image 2024-10-28 at 17.06.07_c04aec92.jpg " width="400" alt="whatsapp" class="QR">
-            </div>
-        </section>
-
-        <section id="finance" class="finance">
-            <div class="skrill_Category">
-                <div class="icon_side">
-                    <img src="./Pics/logo.png"  width="400" alt="skrill Icon Picture">
-                </div>
-
-                <div class="info_side">
-                    <h1 class="skrill_title">We can now help you with your skrill <span>Deposits & Withdrawals</span> at a low cost</h1>
-
-                    <h1 class="title_information">Information about transactions</h1>
-
-                    <h3 class="blue_title"><span>Deposits</span></h3>
-                    <p>Please note that for every deposit you want to make to your skrill we charge you at rate of 30% on your money.</p>
-                    
-
-                    <h3 class="blue_title2"><span>Withdrawals</span></h3>
-                    <p>Please kindly note that for every Withdrawals that you want to make we charge you at a rate of 38% on your Withdrawal. </p>
-
-                    <a href="https://www.facebook.com/profile.php?id=100072565455427" class="btn btn-skrill">Contact us</a>
-					
-					</div>
-            </div>
-        </section>
-
-        <section id="contact" class="contact_section">
-            <div class="support">
-                <h1>Need to talk to live <span>support?</span></h1>
-                <p>Do not worry, please contact us with any of these methods and we will reply as soon as possible. <span>Happy trading!</span></p>
-            </div>
-
-            <div class="methods">
-                <div class="Whatsapp">
-                <a href="https://wa.me/qr/JPDWSXTEUDRK1"><img src="./Pics/logo (1).png" width="60" alt="whatsapp image"></a>
-                    <h1>+266 51661331</h1>
-                </div>
-                <div class="Facebook">
-                    <img src="./Pics/communication (2).png" width="60" alt="facebook image">
-                    <h1>TECH TRADERS</h1>
-                </div>
-                <div class="Instagram">
-                  <a href="instagram.com/leakay_fx/"> <img src="./Pics/instagram.png" width="60" alt="Instagram image"></a>  
-                    <h1> leakay_fx </h1>
-                </div>
-                <div class="MobilePhone">
-                    <img src="./Pics/phone-call.png" width="60" alt="Mobile phone image">
-                    <h1>+266 63088185</h1>
-                    
-                </div>
-            </div>
-            <img alt="leakay" src="Pics/Leakay.jpg" height="425" width="422">
-
-        </section>
-
-        <section id="mentorship" class="lessons ment">
-            <h1>Do you want to learn <span>Forex?</span></h1>
-            <p>You have come to the right place! We offer you structured courses at affordable prices.
-            </p>
-            <div class="methods">
-                <h1>Our Payment Methods <span>Include</span></h1>
-            </div>
-
-            <div class="paymentsMethods">
-                <img src="Pics/mpesa.png" alt="mpesa" class="payments">
-                <img src="Pics/Nedbank.jpg" alt="Nedbank"class="payments">
-                <img src="Pics/standard bank.jpg" alt="standard" class="payments">
-                <img src="Pics/ecocash.png" alt="ecocash"class="payments">
-                <img src="Pics/FNB.jpg" alt="FNB"class="payments">
-                <img src="Pics/post bank.jpg" alt="post" class="payments">
-            </div>
-
-            <div class="package">
-                <div class="basic">
-                    <h1>Live Mentorship <span>M750 Monthly</span></h1>
-                    <ul class="list">
-                        <li>6 months course</li>
-                        <li>M750 Monthly instalment</li>
-                        <li>Once off payment M3 500</li>
-
-                        <a href="./Templates/payments.html" class="btn btn_media" >Enroll now</a>
-                    </ul>
-                </div>
-                <div class="basic basictwo">
-                    <h1>Online Mentorship Program <span>M500 Monthly Fee</span></h1>
-                    <ul class="list">
-                        <li>6 Months course</li>
-                        <li>Duration 4 Weeks</li>
-                        <li>M500 Monthly instalment</li>
-                        <li>M2 500 Once off payment</li>
-
-                        <a href="./Templates/payments.html" class="btn btn_media" >Enroll now</a>
-                    </ul>
-                </div>
-            </div>
-            <div class="package">
-                
-                <div class="basic">
-                    <h1>Signal Pricing</h1>
-                    <h1>Pricing </h1>
-                    <ul class="list">
-                        <li>Monthly Access M500</li>
-                        <li>3 Months Access M1 200</li>
-                        <li>1 Year Access M1 800</li>
-
-                        <a href="./Templates/payments.html" class="btn btn_media" >buy</a>
-                    </ul>
-                </div>
-                <div class="basic bac2 basictwo">
-                    <h1>Fundamental Signals </h1>
-                    <ul class="list">
-                        <li>Monthly Access M200</li>
-                        <li>3 Months Access M500</li>
-                        <li>1 Year Access M1 600</li>
-                        
-
-                        <a href="./Templates/payments.html" class="btn btn_media" >Buy</a>
-                    </ul>
-                </div>
-
-                <div class="basic basictwo">
-                    <h1>Deriv Signals</h1>
-                    <ul class="list">
-                        <li>Monthly Access M250</li>
-                        <li>3 Months Access M600</li>
-                        <li>1 Year Access M2 000</li>
-
-                        <a href="./Templates/payments.html" class="btn btn_media" >Buy</a>
-                    </ul>
-                </div>
-            </div>
-<div class="proof second">
-		<strong> <h1>About Us</h1>
-        <p>At Tech Traders, we provide expert mentorship to guide you through the intricacies of the forex market.</p>
-        <p>Our mentors are seasoned traders who have helped countless students achieve their trading goals.</p>
-		<p> Join the best team to be a profitable trader by learning Smart Money Concept </p>
-		<br>
-			</strong>
-</div>
-		 <table>      
-                       
-			
-				 <tr>
-				 <td>
-					 <video controls height="400" width="800">
-						 <source src="videoplayback.mp4" type="video/mp4">
-						 <source src="" type="video/mp4">
-		
-						 <source src="videos/sample.ogv" type="video/ogg">
-						 
-					 </video>
-					 </td>
-
-                      </tr> 
-                       </table>
-
-           
-        </section>
-		        <!-- Forex Mentorship Section -->
-<section id="forex-mentorship" class="mentorship">
-    <h2>Join Our Forex Mentorship Program</h2>
-    <p>Fill in the form below to start your journey with Tech Traders' exclusive Forex Mentorship Program.</p>
-
-    <form action="submit_mentorship.php" method="post" class="mentorship-form">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-
-        <label for="program">Select Program:</label>
-        <select id="program" name="program">
-            <option value="live">Live Mentorship - M750/Month</option>
-            <option value="online">Online Mentorship - M500/Month</option>
-            <option value="signals">Signal Package</option>
-        </select>
-
-        <label for="comments">Additional Comments:</label>
-        <textarea id="comments" name="comments" placeholder="Enter any specific goals or questions..."></textarea>
-
-        <a href="./Templates/payments.html" class="btn btn_media" > <button type="submit" class="btn">Enroll Now</button></a>
-    </form>
-</section>
-		     <!-- TradingView Widget Section -->
-<section id="chart">
-    <h2>Live Forex Chart</h2>
-    <!-- TradingView Widget Code -->
-    <div class="tradingview-widget-container">
-        <div id="tradingview_chart"></div>
-        <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
-        <script type="text/javascript">
-            new TradingView.widget({
-                "container_id": "tradingview_chart",
-                "width": "100%",
-                "height": "500",
-                "symbol": "OANDA:EURUSD",  // Change symbol as needed
-                "interval": "D",
-                "timezone": "Etc/UTC",
-                "theme": "light",
-                "style": "1",
-                "locale": "en",
-                "toolbar_bg": "#f1f3f6",
-                "withdateranges": true,           // Enable toolbar with date ranges
-                "hide_side_toolbar": false,       // Display side toolbar for drawing tools
-                "enable_publishing": false,
-                "allow_symbol_change": true,
-                "save_image": false,
-                "details": true,
-                "studies": [
-                    "MACD@tv-basicstudies",           // Moving Average Convergence Divergence
-                    "RSI@tv-basicstudies",            // Relative Strength Index
-                    "Moving Average@tv-basicstudies", // Simple Moving Average
-                    "Bollinger Bands@tv-basicstudies" // Bollinger Bands
-                ]
-            });
-        </script>
-    </div>
-</section>
-
-
-
-
-
-
-        
-        <!-- This is where i load my JavaScript-->
-        <script src="Script.js" >
-        </script>
-    </body>
-
-    
-    <footer>
-        <div class="copyright">
-            <p>&copy; 2024 Tech Traders Forex Mentorship. All Rights Reserved.</p>
         </div>
+        <div class="home-img">
+            <img src="XAUUSD_before.png" alt="Trading Image">
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <h2 class="heading">See for Yourself</h2>
+        <p>
+            Join the blue team and trade with skilled traders. Specializing in <span>Gold, US30, Nasdaq, and EURUSD.</span> 
+            Signals are 89%-95% accurate. Grow your account with us!
+        </p>
+        <div class="proof">
+            <div class="before">
+                <h3>Before</h3>
+                <img src="Pics/red.jpg" alt="Before Profits" class="proofPic">
+            </div>
+            <div class="after">
+                <h3>After</h3>
+                <img src="Pics/blues.jpg" alt="After Profits" class="proofPic">
+            </div>
+        </div>
+    </section>
+
+    <!-- Free Group Section -->
+    <section id="whatsapp" class="whatsappx">
+        <div class="ready">
+            <h1>Are you <span>Ready?</span></h1>
+            <p>Join our trial group now for free and migrate to VIP at your convenience.</p>
+        </div>
+        <div class="whatsappIcon">
+            <img src="Pics/whatsapp.png" alt="WhatsApp Icon" width="200">
+        </div>
+        <a href="https://chat.whatsapp.com/CQAsn50oJZrLUrpAoJbqCs" class="btn">Join</a>
+    </section>
+
+    <!-- Finance Section -->
+    <section id="finance" class="finance">
+        <div class="skrill_category">
+            <img src="./Pics/logo.png" alt="Skrill Logo" width="400">
+            <h2>Deposits & Withdrawals</h2>
+            <p>We charge 30% for deposits and 38% for withdrawals. Contact us for low-cost transactions!</p>
+            <a href="https://www.facebook.com/profile.php?id=100072565455427" class="btn">Contact Us</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact_section">
+        <h2>Contact Us</h2>
+        <p>Reach out via WhatsApp, Facebook, Instagram, or phone. Happy Trading!</p>
+        <div class="methods">
+            <div class="method">
+                <img src="./Pics/logo (1).png" alt="WhatsApp Icon" width="60">
+                <h3>+266 51661331</h3>
+            </div>
+            <div class="method">
+                <img src="./Pics/communication (2).png" alt="Facebook Icon" width="60">
+                <h3>Tech Traders</h3>
+            </div>
+            <div class="method">
+                <a href="instagram.com/leakay_fx/">
+                    <img src="./Pics/instagram.png" alt="Instagram Icon" width="60">
+                </a>
+                <h3>@leakay_fx</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mentorship Section -->
+    <section id="mentorship" class="mentorship">
+        <h2>Forex Mentorship Programs</h2>
+        <p>Join our structured courses at affordable prices. Choose between live or online mentorship!</p>
+        <div class="packages">
+            <div class="package">
+                <h3>Live Mentorship</h3>
+                <p>Cost: M750/Month or M3,500 Once-off</p>
+            </div>
+            <div class="package">
+                <h3>Online Mentorship</h3>
+                <p>Cost: M500/Month or M2,500 Once-off</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- TradingView Chart Section -->
+    <section id="chart" class="chart">
+        <h2>Live Forex Chart</h2>
+        <div class="tradingview-widget-container">
+            <div id="tradingview_chart"></div>
+            <script src="https://s3.tradingview.com/tv.js"></script>
+            <script>
+                new TradingView.widget({
+                    "container_id": "tradingview_chart",
+                    "width": "100%",
+                    "height": "400",
+                    "symbol": "NASDAQ:GOOG",
+                    "interval": "D",
+                    "theme": "light",
+                    "locale": "en",
+                    "toolbar_bg": "#f1f3f6",
+                    "enable_publishing": false,
+                    "hide_side_toolbar": false,
+                    "allow_symbol_change": true
+                });
+            </script>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Tech Traders. All Rights Reserved.</p>
     </footer>
+</body>
+
 </html>
