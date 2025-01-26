@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Traders</title>
+    <link rel="icon" type="image/x-icon" href="./Pics/favicon/money-bag.png">
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            position: relative;
+        }
+
+        header img {
+            height: 50px;
+        }
+
+        .logo {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .logo span {
+            font-size: 14px;
+            display: block;
+        }
+
+        /* Navbar Styles */
+        .navbar {
+            display: none;
+            flex-direction: column;
+            background-color: #444;
+            position: absolute;
+            top: 100%;
+            right: 10px;
+            width: 200px;
+            border-radius: 8px;
+            padding: 10px;
+            z-index: 100;
+        }
+
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            text-align: center;
+            border-bottom: 1px solid #555;
+        }
+
+        .navbar a:last-child {
+            border-bottom: none;
+        }
+
+        .navbar a:hover {
+            background-color: #555;
+        }
+
+        /* Show Menu */
+        .navbar.show-menu {
+            display: flex;
+        }
+
+        /* Menu Icon Styles */
+        .menu-icon {
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <img src="Tech_Trader_White.png" alt="Tech Traders Logo">
+        <a href="#tradingview_chart" class="logo">TradingView <span>Analyse your favorite pair</span></a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#education">Our Work</a>
+            <a href="#whatsapp">Free Group</a>
+            <a href="#finance">Finance</a>
+            <a href="#contact">Contact Us</a>
+            <a href="#mentorship">Mentorship</a>
+        </nav>
+
+        <img src="./Pics/mobile/menu.png" alt="Menu Icon" class="menu-icon" id="menuBtn">
+    </header>
+
+    <!-- Main Content -->
+    <section id="home">
+        <h1>Welcome to Tech Traders</h1>
+        <p>Your journey to professional trading starts here.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Tech Traders. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        // JavaScript to toggle menu
+        const menuBtn = document.getElementById('menuBtn'); // Select menu button
+        const navbar = document.querySelector('.navbar'); // Select navbar
+
+        menuBtn.addEventListener('click', () => {
+            navbar.classList.toggle('show-menu'); // Toggle visibility
+        });
+    </script>
+</body>
+
+</html>
