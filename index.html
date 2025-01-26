@@ -1,11 +1,156 @@
+<!--Carry out this project using clear coding and clear labeling -->
+<!--Carry out this project using the css referal to educate yourself even more  -->
+
 <!DOCTYPE html>
 <html lang="en">
+    
+    <!--This is the head of my profile-->
+    <head>
+        <meta charset="UTF-8">
+        <!-- i dont know what is this but its like it is always there when the page is started-->
+        
+        <meta name="viewport" content="width = device - width ,  initial-scale = 1.0 ">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tech Traders</title>
-    <link rel="icon" type="image/x-icon" href="./Pics/favicon/money-bag.png">
+        <!-- Creating the title of my page -->
+        <title> TECH TRADERS. </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="./Pics/favicon/money-bag (1).png" />
+        <link rel="stylesheet" href="./mediaQueries/media.css">
+        <link rel="stylesheet" href="slider.css">
+
+    	<link href="Templates/logo.css" rel="stylesheet" type="text/css">
+
+        <link rel="icon" type="image/x-icon" href="./Pics/favicon/money-bag.png">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Tech Traders</title>
+            <link rel="icon" type="image/x-icon" href="./Pics/favicon/money-bag.png">
+            <style>
+                /* General Styles */
+                body {
+                    font-family: Arial, sans-serif;
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                }
+        
+                header {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    background-color: #333;
+                    color: #fff;
+                    padding: 10px 20px;
+                    position: fixed;
+                    width: 100%;
+                    top: 0;
+                    z-index: 1000;
+                    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+                }
+        
+                header img {
+                    height: 50px;
+                }
+        
+                .logo {
+                    color: #fff;
+                    text-decoration: none;
+                    font-size: 18px;
+                }
+        
+                .logo span {
+                    font-size: 14px;
+                    display: block;
+                }
+        
+                /* Navbar Styles */
+                .navbar {
+                    display: none;
+                    flex-direction: column;
+                    background-color: #444;
+                    position: absolute;
+                    top: 70px;
+                    right: 10px;
+                    width: 200px;
+                    border-radius: 8px;
+                    padding: 10px;
+                    z-index: 100;
+                    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+                    transform: translateY(-20px);
+                    opacity: 0;
+                    transition: transform 0.3s ease, opacity 0.3s ease;
+                }
+        
+                .navbar.show-menu {
+                    display: flex;
+                    transform: translateY(0);
+                    opacity: 1;
+                }
+        
+                .navbar a {
+                    color: #fff;
+                    text-decoration: none;
+                    padding: 10px;
+                    text-align: center;
+                    border-bottom: 1px solid #555;
+                    transition: background-color 0.3s ease;
+                }
+        
+                .navbar a:last-child {
+                    border-bottom: none;
+                }
+        
+                .navbar a:hover {
+                    background-color: #555;
+                }
+        
+                /* Menu Icon Styles */
+                .menu-icon {
+                    width: 40px;
+                    height: 40px;
+                    cursor: pointer;
+                }
+        
+                /* Responsive Design */
+                @media (min-width: 768px) {
+                    .navbar {
+                        display: flex !important;
+                        flex-direction: row;
+                        position: static;
+                        background-color: transparent;
+                        transform: translateY(0);
+                        opacity: 1;
+                        box-shadow: none;
+                        width: auto;
+                        padding: 0;
+                    }
+        
+                    .navbar a {
+                        border: none;
+                        margin: 0 10px;
+                    }
+        
+                    .menu-icon {
+                        display: none;
+                    }
+                }
+        
+                /* Main Section */
+                section {
+                    padding: 80px 20px;
+                    margin-top: 50px;
+                    text-align: center;
+                }
+        
+                footer {
+                    text-align: center;
+                    padding: 20px;
+                    background-color: #333;
+                    color: #fff;
+                }
+            </style>
+        
     <style>
         /* General Styles */
         body {
@@ -82,46 +227,428 @@
             cursor: pointer;
         }
     </style>
-</head>
 
-<body>
-    <!-- Header Section -->
-    <header>
-        <img src="Tech_Trader_White.png" alt="Tech Traders Logo">
-        <a href="#tradingview_chart" class="logo">TradingView <span>Analyse your favorite pair</span></a>
+    </head>
 
-        <nav class="navbar">
-            <a href="#home">Home</a>
-            <a href="#education">Our Work</a>
-            <a href="#whatsapp">Free Group</a>
-            <a href="#finance">Finance</a>
-            <a href="#contact">Contact Us</a>
-            <a href="#mentorship">Mentorship</a>
-        </nav>
 
-        <img src="./Pics/mobile/menu.png" alt="Menu Icon" class="menu-icon" id="menuBtn">
-    </header>
+    <!--This is the body of my profile -->
+    <body>
 
-    <!-- Main Content -->
-    <section id="home">
-        <h1>Welcome to Tech Traders</h1>
-        <p>Your journey to professional trading starts here.</p>
-    </section>
+        <!--This is the navigation bar or header of the page section-->
+        <!-- Creating header in the navbar or logo-->
+        <header class="header">
+     <img alt="tt" src="Pics/tt_files/Tech_Trader_White.png" height="80" width="auto">
+                
+                <a href="#home"  class="logo">TECH TRADERS.
+            <span>Forex Signals</span></a>
+        
+            <nav class="navbar navbar2" id="sidemenu" style="right: 0; top: 100px; width: 299px">
+                <a href="#home"><span>Home</span></a>
+                <a href="#education"> Our Work </a>
+                <a href="#Whatsapp"> Free Group </a>
+                <a href="#finance"> Finance</a>
+                <a href="#contact"> Contact Us </a>
+                <a href="#mentorship"> Mentorship </a>
 
-    <!-- Footer -->
+                
+            </nav>
+
+            <img src="./Pics/mobile/menu.png" alt="Menu Icon" class="menu-icon" id="menuBtn">
+            <nav class="navbar">
+                <a href="#home"><span>Home</span></a>
+                <a href="#education"> Our Work </a>
+                <a href="#Whatsapp"> Free Group </a>
+                <a href="#finance"> Finance</a>
+                <a href="#contact"> Contact Us </a>
+                <a href="#mentorship"> Mentorship </a>
+                
+            </nav>
+            <i><img src="./Pics/mobile/menu.png" width="40" alt="option gui" id="menuBtn" class="menu-icon"></i>
+        </header>
+
+        <!-- This is the home section for my page -->
+        <section  class="home" id="home">
+            <!-- This is the major div holding all of the contents -->
+            <div class="home-content">
+                <h1>At<span>  TECH TRADERS. </span></h1>
+                <h3 class="text-animation"> We offer <span></span></h3>
+
+                <P>
+                    Dumela Mosotho ea khabane. You can now get professional and fully structured 
+                    trading signals (Fundamentals and Technical) starting from as low as <span>M500
+                        per month.</span>
+                </P>
+
+                <!--As the name suggest this is he buttons group where all buttons remain-->
+                <div class="btn-group">
+                    <a href="./Templates/payments.html" class="btn btn_media" >Buy</a>
+                    <a href="./Templates/login.html" class="btn btn2" >Signals.....</a>
+                </div>
+            </div>
+            <div class="home-img">
+                <img src="./Pics/XAUUSD_before.png" alt=pic 1" />
+            </div>
+        </section>
+
+
+        <section>
+
+            <script>
+                const ws = new WebSocket('wss://frontend.binaryws.com/websockets/v3?app_id=YOUR_APP_ID');
+              
+                ws.onopen = function () {
+                  ws.send(JSON.stringify({
+                    "ticks": "R_100" // Replace with your desired market symbol
+                  }));
+                };
+              
+                ws.onmessage = function (event) {
+                  const data = JSON.parse(event.data);
+                  if (data.tick) {
+                    console.log(`Symbol: ${data.tick.symbol}, Price: ${data.tick.quote}`);
+                    document.getElementById('price').innerText = `Price: ${data.tick.quote}`;
+                  }
+                };
+              </script>
+              
+              
+              
+        </section>
+
+            <!-- this section is making the button squeeze-->
+        <!-- This section is for education of the web -->
+        <section class="education" id="education">
+            <h2 class="heading"> See for yourself </h2>
+
+            <p>Join the blue team and trade with some of the highly skilled traders.We specialise with <span>Gold , Us30 , Nasdaq and EURUSD.</span>
+                Our signals are 89% - 95% accurate. What are you waiting for ? Grow your account with us!We are looking forward to seeing you 
+                in our VIP club.
+            </p>
+
+            <div class="proof">
+                <div class="before">
+                    <h1><span>Before</span></h1>
+                    <img src="Pics/red.jpg" alt="BeforeProfits" class="proofPic">
+                </div>
+
+                <div class="after">
+                    <h1><span>After</span></h1>
+                    <img src="Pics/blues.jpg" alt="InProfits" class="proofPic">
+                </div>
+            </div>
+
+            <div class="proof second">
+                <p>Trade and analyse gold with the Industry experts. Join our Blue team now ,Click the button at Home page 
+                    if your satisfied.
+                </p>
+                <div class="before2">
+                    <h1><span>Before XAUUSD</span></h1>
+                    <img src="Pics/XAUUSD_after.png" alt="BeforeProfits" class="proofPic">
+                </div>
+
+                <div class="after2">
+                    <h2><span>After</span></h2>
+                    <img src="Pics/XAUUSD_before.png" alt="InProfits" class="proofPic">
+                </div>
+                
+             <!--Creating the navbar-->
+    <nav class="navigation">
+   
+
+            <div class="proof third">
+            
+              <div class="before3">
+              <p><strong>When it comes to technical analysies TECH TRADERS will never depress you believe me we the best 
+			  </strong> </p>
+              	<strong>
+              <br>
+              	</strong>
+              <p><em><strong>Smart Money Trading Simplified </strong></em> </p>
+             
+             <table>
+                              
+                <h1><span>Before Ger30</span></h1>
+                
+                    <img alt="Ger Bofore" src="Pics/GER30_before.png" height="265" width="582">
+                    
+                   
+
+             <div class="after3">
+             
+                   <h1><span>After</span></h1>
+                   
+                    <tr> <img alt="after Ger30" src="Pics/GER30_after.png"  height="265" width="582">
+                    </tr>
+                    </div>
+                    			
+			<strong><p>An introduction to our Smart Money Concept course </p>
+</strong>
+<br>  
+
+                 <table>      
+                       
+			
+				 <tr>
+				 <td>
+					 <video controls height="400" width="800">
+						 <source src="C:\Users\DEll\Documents\Forex Website\Easy_ICT_Turtle_Soup_Trading_Strategy__Highly_Profitable____BTT(720p).mp4" type="video/mp4">
+						 <source src="" type="video/mp4">
+		
+						 <source src="videos/sample.ogv" type="video/ogg">
+						 
+					 </video>
+					 </td>
+
+                      </tr> 
+                       </table>
+			
+		
+        <section id="Whatsapp" class="Whatsappx">
+            <div class="ready">
+                <h1>Are you <span>Ready?</span></h1>
+                <p>Join our trial group now for free and migrate to VIP at anytime convinient to you.</p>
+            </div>
+
+            <div class="whatsappIcon">
+                <img src="Pics/whatsapp.png" width="200" alt="whatsapp" class="whatsapp">
+            </div>
+            <a class="btn two" href="https://chat.whatsapp.com/IYUxdpFgZfM68MhqLJ8Fds">Join</a>
+
+            <div class="whatsappIcon2">
+                <img alt="CEO" src="Pics/WhatsApp%20Image%202024-10-13%20at%2012.19.10_bcd50760.jpg" width="400" alt="whatsapp" class="QR">
+            </div>
+        </section>
+
+        <section id="finance" class="finance">
+            <div class="skrill_Category">
+                <div class="icon_side">
+                    <img src="./Pics/logo.png"  width="400" alt="skrill Icon Picture">
+                </div>
+
+                <div class="info_side">
+                    <h1 class="skrill_title">We can now help you with your skrill <span>Deposits & Withdrawals</span> at a low cost</h1>
+
+                    <h1 class="title_information">Information about transactions</h1>
+
+                    <h3 class="blue_title"><span>Deposits</span></h3>
+                    <p>Please note that for every deposit you want to make to your skrill we charge you at rate of 30% on your money.</p>
+                    
+
+                    <h3 class="blue_title2"><span>Withdrawals</span></h3>
+                    <p>Please kindly note that for every Withdrawals that you want to make we charge you at a rate of 38% on your Withdrawal. </p>
+
+                    <a href="https://www.facebook.com/profile.php?id=100072565455427" class="btn btn-skrill">Contact us</a>
+					
+					</div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact_section">
+            <div class="support">
+                <h1>Need to talk to live <span>support?</span></h1>
+                <p>Do not worry, please contact us with any of these methods and we will reply as soon as possible. <span>Happy trading!</span></p>
+            </div>
+
+            <div class="methods">
+                <div class="Whatsapp">
+                <a href="https://wa.me/qr/JPDWSXTEUDRK1"><img src="./Pics/logo (1).png" width="60" alt="whatsapp image"></a>
+                    <h1>+266 51661331</h1>
+                </div>
+                <div class="Facebook">
+                    <img src="./Pics/communication (2).png" width="60" alt="facebook image">
+                    <h1>TECH TRADERS</h1>
+                </div>
+                <div class="Instagram">
+                  <a href="instagram.com/leakay_fx/"> <img src="./Pics/instagram.png" width="60" alt="Instagram image"></a>  
+                    <h1> leakay_fx </h1>
+                </div>
+                <div class="MobilePhone">
+                    <img src="./Pics/phone-call.png" width="60" alt="Mobile phone image">
+                    <h1>+266 63088185</h1>
+                    
+                </div>
+            </div>
+            <img alt="leakay" src="Pics/Leakay.jpg" height="425" width="422">
+
+        </section>
+
+        <section id="mentorship" class="lessons ment">
+            <h1>Do you want to learn <span>Forex?</span></h1>
+            <p>You have come to the right place! We offer you structured courses at affordable prices.
+            </p>
+            <div class="methods">
+                <h1>Our Payment Methods <span>Include</span></h1>
+            </div>
+
+            <div class="paymentsMethods">
+                <img src="Pics/mpesa.png" alt="mpesa" class="payments">
+                <img src="Pics/Nedbank.jpg" alt="Nedbank"class="payments">
+                <img src="Pics/standard bank.jpg" alt="standard" class="payments">
+                <img src="Pics/ecocash.png" alt="ecocash"class="payments">
+                <img src="Pics/FNB.jpg" alt="FNB"class="payments">
+                <img src="Pics/post bank.jpg" alt="post" class="payments">
+            </div>
+
+            <div class="package">
+                <div class="basic">
+                    <h1>Live Mentorship <span>M750 Monthly</span></h1>
+                    <ul class="list">
+                        <li>6 months course</li>
+                        <li>M750 Monthly instalment</li>
+                        <li>Once off payment M3 500</li>
+
+                        <a href="./Templates/payments.html" class="btn btn_media" >Enroll now</a>
+                    </ul>
+                </div>
+                <div class="basic basictwo">
+                    <h1>Online Mentorship Program <span>M500 Monthly Fee</span></h1>
+                    <ul class="list">
+                        <li>6 Months course</li>
+                        <li>Duration 4 Weeks</li>
+                        <li>M500 Monthly instalment</li>
+                        <li>M2 500 Once off payment</li>
+
+                        <a href="./Templates/payments.html" class="btn btn_media" >Enroll now</a>
+                    </ul>
+                </div>
+            </div>
+            <div class="package">
+                
+                <div class="basic">
+                    <h1>Signal Pricing</h1>
+                    <h1>Pricing </h1>
+                    <ul class="list">
+                        <li>Monthly Access M500</li>
+                        <li>3 Months Access M1 200</li>
+                        <li>1 Year Access M1 800</li>
+
+                        <a href="./Templates/payments.html" class="btn btn_media" >buy</a>
+                    </ul>
+                </div>
+                <div class="basic bac2 basictwo">
+                    <h1>Fundamental Signals </h1>
+                    <ul class="list">
+                        <li>Monthly Access M200</li>
+                        <li>3 Months Access M500</li>
+                        <li>1 Year Access M1 600</li>
+                        
+
+                        <a href="./Templates/payments.html" class="btn btn_media" >Buy</a>
+                    </ul>
+                </div>
+
+                <div class="basic basictwo">
+                    <h1>Deriv Signals</h1>
+                    <ul class="list">
+                        <li>Monthly Access M250</li>
+                        <li>3 Months Access M600</li>
+                        <li>1 Year Access M2 000</li>
+
+                        <a href="./Templates/payments.html" class="btn btn_media" >Buy</a>
+                    </ul>
+                </div>
+            </div>
+
+
+            <table>      
+                       
+			
+                <tr>
+                <td>
+                    <video controls height="400" width="800">
+                        <source src="C:\Users\DEll\Documents\Forex Website\videoplayback.mp4" type="video/mp4">
+                        <source src="C:\Users\DEll\Documents\Forex Website\videoplayback.mp4" type="video/mp4">
+       
+                        <source src="videos/sample.ogv" type="video/ogg">
+                        
+                    </video>
+                    </td>
+
+                     </tr> 
+                      </table>
+
+           
+        </section>
+
+        <!-- Forex Mentorship Section -->
+<section id="forex-mentorship" class="mentorship">
+    <h2>Join Our Forex Mentorship Program</h2>
+    <p>Fill in the form below to start your journey with Tech Traders' exclusive Forex Mentorship Program.</p>
+
+    <form action="submit_mentorship.php" method="post" class="mentorship-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="program">Select Program:</label>
+        <select id="program" name="program">
+            <option value="live">Live Mentorship - M750/Month</option>
+            <option value="online">Online Mentorship - M500/Month</option>
+            <option value="signals">Signal Package</option>
+        </select>
+
+        <label for="comments">Additional Comments:</label>
+        <textarea id="comments" name="comments" placeholder="Enter any specific goals or questions..."></textarea>
+
+        <a href="./Templates/payments.html" class="btn btn_media" > <button type="submit" class="btn">Enroll Now</button></a>
+    </form>
+</section>
+
+<!-- TradingView Widget Section -->
+<section id="chart">
+    <h2>Live Forex Chart</h2>
+    <!-- TradingView Widget Code -->
+    <div class="tradingview-widget-container">
+        <div id="tradingview_chart"></div>
+        <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+        <script type="text/javascript">
+            new TradingView.widget({
+                "container_id": "tradingview_chart",
+                "width": "100%",
+                "height": "500",
+                "symbol": "OANDA:EURUSD",  // Change symbol as needed
+                "interval": "D",
+                "timezone": "Etc/UTC",
+                "theme": "light",
+                "style": "1",
+                "locale": "en",
+                "toolbar_bg": "#f1f3f6",
+                "withdateranges": true,           // Enable toolbar with date ranges
+                "hide_side_toolbar": false,       // Display side toolbar for drawing tools
+                "enable_publishing": false,
+                "allow_symbol_change": true,
+                "save_image": false,
+                "details": true,
+                "studies": [
+                    "MACD@tv-basicstudies",           // Moving Average Convergence Divergence
+                    "RSI@tv-basicstudies",            // Relative Strength Index
+                    "Moving Average@tv-basicstudies", // Simple Moving Average
+                    "Bollinger Bands@tv-basicstudies" // Bollinger Bands
+                ]
+            });
+        </script>
+    </div>
+</section>
+
+
+
+
+<script>
+    // JavaScript to toggle menu
+    const menuBtn = document.getElementById('menuBtn'); // Select menu button
+    const navbar = document.querySelector('.navbar'); // Select navbar
+
+    menuBtn.addEventListener('click', () => {
+        navbar.classList.toggle('show-menu'); // Toggle visibility
+    });
+</script>
+    </body>
+
     <footer>
-        <p>&copy; 2025 Tech Traders. All Rights Reserved.</p>
+        <div class="copyright">
+            <p>Copyright. All right reserved.</p>
+        </div>
     </footer>
-
-    <script>
-        // JavaScript to toggle menu
-        const menuBtn = document.getElementById('menuBtn'); // Select menu button
-        const navbar = document.querySelector('.navbar'); // Select navbar
-
-        menuBtn.addEventListener('click', () => {
-            navbar.classList.toggle('show-menu'); // Toggle visibility
-        });
-    </script>
-</body>
-
 </html>
